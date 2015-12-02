@@ -7,6 +7,7 @@
 * [Numbers](chapter2/readme.md)
    * [math()](chapter2/math.md)
    * [aggregators](chapter2/aggregators.md)
+   * [rollUp()](chapter2/rollup.md)
 * [Text](chapter3/README.md)
 * [Dates](chapter4/README.md)
 * [Conditional logic](chapter5/README.md)
