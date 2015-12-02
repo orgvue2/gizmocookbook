@@ -3,7 +3,7 @@
 OrgVue’s scripting language Gizmo allows you to perform querying, calculations, aggregations and transformations.
 
 
-## Typical use cases of Gizmo Expressions
+### Typical use cases of Gizmo Expressions
 
 
 1. Quickly get answer to complex questions, e.g. 
