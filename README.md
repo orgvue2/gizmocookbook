@@ -4,7 +4,7 @@ Gizmo Cookbook
 This is Gizmo Cookbook for OrgVue users.
 
 
-### Other resources:
+#### Other resources:
 
 [OrgVue Website](https://orgvue.com/)
 
