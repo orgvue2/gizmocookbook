@@ -2,6 +2,7 @@
 
 * [Preface](README.md)
 * [Introduction to Gizmo expression](chapter1/readme.md)
+    * [Introduction](chapter1/introduction.md)
 * [Numbers](chapter2/readme.md)
     * [math()](chapter2/math.md)
 * [Text](chapter3/README.md)
