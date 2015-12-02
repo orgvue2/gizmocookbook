@@ -1,5 +1,5 @@
 # Summary
 
 * [Preface](README.md)
-* [First Chapter](chapter1.md)
+* [1. Introduction to Gizmo Expression](chapter1.md)
 
