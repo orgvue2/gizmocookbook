@@ -18,4 +18,5 @@
 * [Conditional logic](chapter5/README.md)
 * [Filters](chapter6/README.md)
 * [Lamda expression](chapter7/README.md)
+* [Optimisation tips](chapter8/README.md)
 
