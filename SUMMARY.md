@@ -3,6 +3,7 @@
 * [Preface](README.md)
 * [Introduction to Gizmo expression](chapter1/readme.md)
 * [Numbers](chapter2/readme.md)
+    * [math()](chapter2/math.md)
 * [Text](chapter3/README.md)
 * [Dates](chapter4/README.md)
 * [Conditional logic](chapter5/README.md)
