@@ -1,6 +1,7 @@
 # Summary
 
 * [Preface](README.md)
+* [Introduction to Gizmo expression](chapter1/readme.md)
 * [Numbers](chapter2/README.md)
 * [Text](chapter3/README.md)
 * [Dates](chapter4/README.md)
