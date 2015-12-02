@@ -1,7 +1,7 @@
 # Summary
 
 * [Preface](README.md)
-* [Introduction to Gizmo Expression](chapter1/README.md)
+* [Introduction to Gizmo Expression](chapter1/readme.md)
     * [Introduction](chapter1/introduction.md)
     * [Expression Panel](chapter1/expressionpanel.md)
     * [Nodes and Collections](chapter1/nodesandcollections.md)
@@ -9,7 +9,7 @@
     * [Accessing Proerties](chapter1/accessingproperties.md)
     * [Calling methods](chapter1/callingmethods.md)
     * [Supported operators](chapter1/operators.md)
-* [Numbers](chapter2/README.md)
+* [Numbers](chapter2/readme.md)
     * [format()](chapter2/format.md)
     * [math()](chapter2/math.md)
     * [aggregators](chapter2/aggregators.md)
