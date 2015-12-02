@@ -1,10 +1,10 @@
 # math()
 
-## Problem
+### Problem
 You want to know “Total compensation” of each employee by adding “Salary” and “Bonus”.
 
 
-## Solution
+### Solution
 Use math() and insert the formula using common arithmetical operators in the bracket with double quotes.
 
 ```
@@ -12,7 +12,7 @@ node.math("currentsalary+currentbonus")
 
 ```
 
-## Discussion
+### Discussion
 
 math() is one of the most frequently used expressions. It allows you to create a new property by performing calculations on the existing properties – in this example, “Total compensation”.
 
