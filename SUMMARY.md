@@ -1,13 +1,6 @@
 # Summary
 
 * [Preface](README.md)
-* [Introduction to Gizmo expression](chapter1/readme.md)
-   * [Introduction](chapter1/introduction.md)
-   * [Expression Panel](chapter1/expressionpanel.md)
-   * [Nodes and collections](chapter1/nodesandcollections.md)
-   * [Basic grammar](chapter1/grammar.md)
-   * [Accessing Properties](chapter1/accessingproperties.md)
-   * [Calling methods](chapter1/callingmethods.md)
 * [Numbers](chapter2/README.md)
 * [Text](chapter3/README.md)
 * [Dates](chapter4/README.md)
