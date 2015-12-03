@@ -11,3 +11,5 @@ Expressions can be understood as the OrgVue equivalent of Excel formulas. They c
 3. within the default value box of a property Dialogue: when you want to apply an expression for all nodes for that property – creating an evaluated property
 4. within scripts that extend the product: when you want to centrally store a large number of expressions or perform complex calculations.
 
+
+![](where to write expressions.JPG)
