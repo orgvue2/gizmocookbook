@@ -12,3 +12,4 @@ The Expression Panel is useful because it can evaluate expressions on the fly. I
     * The ‘clipboard’ icon allows you to copy out the expression result
 
 
+![](expressionpanel.JPG)
