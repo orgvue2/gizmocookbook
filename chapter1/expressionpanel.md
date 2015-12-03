@@ -11,5 +11,5 @@ The Expression Panel is useful because it can evaluate expressions on the fly. I
     * This is also where error messages occur. E.g. “Parse Error…” means you have made a syntax mistake in the expression
     * The ‘clipboard’ icon allows you to copy out the expression result
 
-
 ![](expressionpanel.JPG)
+
