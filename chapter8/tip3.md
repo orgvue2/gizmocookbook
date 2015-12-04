@@ -1,4 +1,4 @@
-## Configure expressions so they re-calculate only as needed
+## 3. Configure expressions so they re-calculate only as needed
 
 The way OrgVue populates and evaluates the values can be optimised through the appropriate use of value modes and evaluation modes in the ‘Edit Property’ dialogue. For example:
 * The most common choice for expressions is to use ‘Fixed’ (value mode) + ‘Node’ (evaluation mode)
@@ -9,20 +9,40 @@ The way OrgVue populates and evaluates the values can be optimised through the a
 
 Re-calculation can be further controlled (prevented and forced) through double-splash(!!) and the recalculation icon.
 
+---
+
 ** 4 value modes ** in the ‘Add/ Edit Property’ dialogue are aimed at increasing the flexibility of value population.
-| Value modes | Description (use cases) |
-|--------|--------|
-|        |        |
+
+| Value mode   | Description (use cases)              |
+| ------------- |:------------------------------------:| 
+| Fixed value | All nodes will return this value, regardless of what has been entered in the cells themselves. | 
+| Default value | Nodes with an existing value retain that value. If a node has a blank value, it is replaced with the Default Value.      |   
+| Inherited value | Nodes with an existing value retain that value. Blank nodes ‘look’ up their hierarchy and inherit the value from their nearest ancestor with a non-null value. If all ancestors have a blank value, nodes will take the Default Value.[^1]  |   
+| Initial | Can only be used when creating a property or new node. Sets the first value for that property of those nodes.[^2]|   
 
 
-1. This can be thought of as a property of a hidden node that is the ultimate root of the tree – the so-called ‘Mother of all Nodes’
-2. When using the Fixed, Default and Inherited modes the cells appear to contain a value but are blank when clicked on. Values set using ‘Initial’ mode are persisted into the cell itself. If you want to paste a hard value into cells, “Initial” is a convenient alternative to a double-splash (!!*)
+[^1] This can be thought of as a property of a hidden node that is the ultimate root of the tree – the so-called ‘Mother of all Nodes’
+
+[^2] When using the Fixed, Default and Inherited modes the cells appear to contain a value but are blank when clicked on. Values set using ‘Initial’ mode are persisted into the cell itself. If you want to paste a hard value into cells, “Initial” is a convenient alternative to a double-splash (!!*)
 
 ** Note: ** Among 4 value modes, the ‘Fixed’ value mode is best practice for most cases.
 
+---
 **6 evaluation modes ** in the ‘Edit Property’ dialogue are used to reduce the data OrgVue scans and the number of times expressions are re-evaluated, increasing the speed of OrgVue. Using these evaluation types you can configure under what circumstances the value of that property is recalculated for a given node, and how.
 
 The value is set via an expression or script executed from outside this property.
+
+| Evaluation mode| What needs to be changed to prompt a re-calculation of a node’s value?| What happens during re-calculation? |
+| ------------- |:------------------------------------:| :------------------------------------:| 
+| Auto | Any node’s value for that property | Recalculate all the nodes in the dataset|
+| Node | One of that node’s values | Recalculate that node |  
+| On demand | Force re-calculation by pressing the re-fresh icon |
+Recalculate all the nodes in the dataset |
+| Hierarchical | One of that node’s values|Recalculate that node and all its ancestors|
+| Script | The property containing node.settemporary got evaluated* | N/A |
+| None | It will not be recalculated outside of a deep refresh | N/A |
+
+[^*] The value is set via an expression or script executed from outside this property.
 
 ** Note: ** ‘Node’ is the most common type to use.
 
