@@ -13,7 +13,7 @@
    * [Formatting numbers](chapter2/format.md)
    * [Performing arithmetic calculation](chapter2/math.md)
    * [Aggregating numbers](chapter2/aggregators.md)
-   * [rollUp()](chapter2/rollup.md)
+   * [Roll up calculation](chapter2/rollup.md)
 * [Text](chapter3/README.md)
    * [format() - text](chapter3/formattext.md)
    * [join()](chapter3/join.md)
