@@ -15,7 +15,7 @@
    * [Aggregating numbers](chapter2/aggregators.md)
    * [Roll up calculation](chapter2/rollup.md)
 * [Strings (text)](chapter3/README.md)
-   * [Formatting text](chapter3/formattext.md)
+   * [Formatting strings](chapter3/formattext.md)
    * [Combining strings](chapter3/join.md)
    * [Slicing strings](chapter3/slice.md)
    * [split()](chapter3/split.md)
