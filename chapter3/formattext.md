@@ -12,5 +12,5 @@ Use `format()` and define the format you want to print out using {property name}
 
 You can define a desired format combining properties and words within double quotes – here one property and one word.
 
-Putting property name within { } returns the value for that property for the current node. 
+Putting property name within `{ }` returns the value for that property for the current node. 
 A space between {tenureyears} and “years” prints out a space.
