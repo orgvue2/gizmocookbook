@@ -9,6 +9,9 @@ OrgVue’s scripting language Gizmo allows you to perform querying, calculations
 1. Quickly get answer to complex questions, e.g. 
 	* what is the total revenue per employee of the sales department
 	* what is the median of the age of all female program managers
+	
+	** Note: ** Compared to Filter Control, Search Box and various visualisation options, Gizmo can be quicker to get an answer to complex and specific question, and it further allows manipulation to the results.
+
 2. Create custom metrics using existing data, e.g.
     * ratio of front to back office staff
     * benfits as a percent of salary
