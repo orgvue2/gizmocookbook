@@ -1,4 +1,4 @@
-## Calculating difference between two dates: age()
+## Calculating age: age()
 ### Problem
 You want to calculate age for employees using their date of birth data.
 
