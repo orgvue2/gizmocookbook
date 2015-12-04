@@ -16,7 +16,7 @@
    * [Roll up calculation](chapter2/rollup.md)
 * [Text](chapter3/README.md)
    * [Formatting text](chapter3/formattext.md)
-   * [join()](chapter3/join.md)
+   * [Joining text ](chapter3/join.md)
    * [slice()](chapter3/slice.md)
    * [split()](chapter3/split.md)
 * [Dates](chapter4/README.md)
