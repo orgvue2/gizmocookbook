@@ -33,7 +33,7 @@ Re-calculation can be further controlled (prevented and forced) through double-s
 The value is set via an expression or script executed from outside this property.
 
 | Evaluation mode| What needs to be changed to prompt a re-calculation of a node’s value?| What happens during re-calculation? |
-| ------------- |:------------------------------------:| :------------------------------------:| 
+| ------------- |----------------------------------| --------------------------------------| 
 | Auto | Any node’s value for that property | Recalculate all the nodes in the dataset|
 | Node | One of that node’s values | Recalculate that node |  
 | On demand | Force re-calculation by pressing the re-fresh icon | Recalculate all the nodes in the dataset |
