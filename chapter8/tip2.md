@@ -1,4 +1,4 @@
-## Write expressions as efficiently as possible
+## 2. Write expressions as efficiently as possible
 OrgVue expressions are written using Gizmo, a subset of JavaScript. Whilst you can’t be expected to write expressions like a developer, there are some simple rules you can follow to make your expressions quicker to run and proof check:
 ### 1. Don’t repeat yourself
 e.g. If referencing the same property multiple times, assign it to a variable:
@@ -21,7 +21,8 @@ var grade = {
 }
 grade[node.appraisalgrade]
 ```
-### 2. Make expressions easy to followe.g. Use the shorthand form of if statement (called “ternary”)
+### 2. Make expressions easy to follow
+e.g. Use the shorthand form of if statement (called “ternary”)
 ```
 if (node.matrixmanagerid > 0) then {node.matrixmanagerid}
 else node.linemanagerid
