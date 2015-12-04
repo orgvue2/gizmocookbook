@@ -21,7 +21,7 @@
    * [Spliting strings](chapter3/split.md)
 * [Dates](chapter4/README.md)
    * [Calculating age](chapter4/age.md)
-   * [diff()](chapter4/diff.md)
+   * [Calculating difference between two dates](chapter4/diff.md)
    * [add()](chapter4/add.md)
 * [Conditional logic](chapter5/README.md)
    * [if()](chapter5/if.md)
