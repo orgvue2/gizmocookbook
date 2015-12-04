@@ -2,8 +2,8 @@
 Any property in the Dataset can be accessed (and then manipulated) by using this syntax – including metadata and relationships as well as normal Dataset properties.
 
 1. Dataset properties:
-	* The most common collections to follow ‘node.’ or ‘nodes().’ are data properties
-	* Example: ‘node.fullname’ will return a value stored in the Full Name property for a node
+	* The most common collections to follow `node.` or `nodes().` are data properties
+	* Example: `node.fullname` will return a value stored in the Full Name property for a node
 	* Dataset properties come in 5 main types; Number, Text (string), Date, Boolean, Image. More exotic types are also supported, including functions, arrays and objects
 	* The data type of a property affects the range of methods that can be applied to it, e.g. you can’t average a string (text)
 
@@ -17,4 +17,4 @@ Any property in the Dataset can be accessed (and then manipulated) by using this
 3. Relationship properties:
 	* Node relationships are stored as a special type of property
 	* This allows you to reference nodes through their hierarchical relationships to one another
-![](accessproperty.jpg)
+	![](accessproperty.jpg)
