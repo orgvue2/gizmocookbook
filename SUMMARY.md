@@ -10,7 +10,7 @@
    * [Calling methods](chapter1/callingmethods.md)
    * [Supported operators](chapter1/operators.md)
 * [Numbers](chapter2/readme.md)
-   * [format() - numbers](chapter2/format.md)
+   * [Formatting numbers ](chapter2/format.md)
    * [math()](chapter2/math.md)
    * [aggregators](chapter2/aggregators.md)
    * [rollUp()](chapter2/rollup.md)
