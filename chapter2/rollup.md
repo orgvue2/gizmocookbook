@@ -1,4 +1,4 @@
-## rollUp()
+## Roll up calculation: rollUp()
 ### Problem
 You want to calculate total salary of a team.
 
