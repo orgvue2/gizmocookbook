@@ -4,8 +4,7 @@ Lambda expression allows you to take in a set of collections and apply a method 
 
 ### Generic form
 
-
-
+![](lamda.jpg)
 
 
 ### Example
