@@ -49,8 +49,11 @@ nodes().hoursworkedperweek.distinct.cnt
 
 ### Discussion
 ```nodes().hoursworkedperweek``` will return the list of hours per week for whole organisation.
+
 ```nodes().hoursworkedperweek.cnt``` will count the values within the defined collection – 1505.
+
 ```nodes().hoursworkedperweek.distinct``` returns same collection without repeated values – 40, 25, 30.
+
 Then ```nodes().hoursworkedperweek.distinct.cnt``` counts the distinct values in the collection – 3. 
 
 **Note: ‘cnt’ vs. ‘count’**
