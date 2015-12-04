@@ -1,4 +1,4 @@
-## diff()
+## Calculating difference between two dates: diff()
 ### Problem
 Today is the 10th of October 2015 and Christmas holiday for this year starts on 21st of December. You want to know how many days you have to wait for this.
 
