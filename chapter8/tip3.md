@@ -36,10 +36,9 @@ The value is set via an expression or script executed from outside this property
 | ------------- |:------------------------------------:| :------------------------------------:| 
 | Auto | Any node’s value for that property | Recalculate all the nodes in the dataset|
 | Node | One of that node’s values | Recalculate that node |  
-| On demand | Force re-calculation by pressing the re-fresh icon |
-Recalculate all the nodes in the dataset |
+| On demand | Force re-calculation by pressing the re-fresh icon | Recalculate all the nodes in the dataset |
 | Hierarchical | One of that node’s values|Recalculate that node and all its ancestors|
-| Script | The property containing node.settemporary got evaluated* | N/A |
+| Script | The property containing node.settemporary got evaluated[^*]  | N/A |
 | None | It will not be recalculated outside of a deep refresh | N/A |
 
 [^*] The value is set via an expression or script executed from outside this property.
@@ -54,6 +53,8 @@ Avoid using the ‘Auto’ evaluation mode* which detects expressions (at a high
 * Choose the ** Script ** mode when using settemporary to set a single expression to return multiple properties
 
 ** Note: ** As OrgVue’s default (in Auto mode), every time the data are loaded it scans all the values for every property until it encounters an expression. It might be that OrgVue scans 50,000 nodes in a dataset to find only the last node has an expression for that property value. This increases the time it takes OrgVue to load or re-process a dataset. As a result of OrgVue having to scan a large number of cells, slow loading especially affects large datasets. 
+
+---
 
 If you only need the expression to be calculated once (or rarely) and remain static most of the time , you can **‘prevent’ or ‘force’ re-evaluation **, providing more control.
 ** Prevent** your expressions being re-calculated when you don’t want them to by adding a “!!” to the end:
