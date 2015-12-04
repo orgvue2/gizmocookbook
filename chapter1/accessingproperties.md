@@ -25,7 +25,7 @@ Any property in the Dataset can be accessed (and then manipulated) by using this
 | `node.children` or `node.c` | Returns all direct reports for the selected node |
 | `node.descendants` or `node.d` | Returns all reports for the selected node |
 | `node.d(2)` | Returns all descendants starting two levels below the selected node  |
-| `node.d(1,2)` | Selects all descendants between 1 and 2 levels below the selected node  |
+| `node.d(1,2)`| Selects all descendants between 1 and 2 levels below the selected node  |
 | `node.d(0,2)` | Returns the node itself and all descendants starting two levels below  |
 
 
