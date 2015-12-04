@@ -13,12 +13,12 @@ Re-calculation can be further controlled (prevented and forced) through double-s
 
 ** 4 value modes ** in the ‘Add/ Edit Property’ dialogue are aimed at increasing the flexibility of value population.
 
-| Value mode   | Description (use cases)              |
-| ------------- |:------------------------------------:| 
+| Value mode        | Description (use cases)              |
+|------------------------- |------------------------------------| 
 | Fixed value | All nodes will return this value, regardless of what has been entered in the cells themselves. | 
 | Default value | Nodes with an existing value retain that value. If a node has a blank value, it is replaced with the Default Value.      |   
 | Inherited value | Nodes with an existing value retain that value. Blank nodes ‘look’ up their hierarchy and inherit the value from their nearest ancestor with a non-null value. If all ancestors have a blank value, nodes will take the Default Value.[^1]  |   
-| Initial | Can only be used when creating a property or new node. Sets the first value for that property of those nodes.[^2]|   
+| Initial value| Can only be used when creating a property or new node. Sets the first value for that property of those nodes.[^2]|   
 
 
 [^1] This can be thought of as a property of a hidden node that is the ultimate root of the tree – the so-called ‘Mother of all Nodes’
