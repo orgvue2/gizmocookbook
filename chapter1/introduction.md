@@ -1,4 +1,4 @@
-# Introduction
+## Introduction
 
 Data in OrgVue is stored as nodes which have properties. Expressions allow you to manipulate these node.property values. Gizmo is the scripting language that is used to write these expressions.
 
