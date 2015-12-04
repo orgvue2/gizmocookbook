@@ -1,4 +1,4 @@
-# Expression Panel
+## Expression Panel
 
 The Expression Panel is useful because it can evaluate expressions on the fly. It is a great way of testing whether your expression is valid, or finding out some data without having to alter the value of any cell in the Dataset. Some practical tips:
 
