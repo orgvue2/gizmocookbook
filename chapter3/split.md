@@ -1,4 +1,4 @@
-## split()
+## Spliting strings: split()
 ### Problem
 You want to split full name into first name and last name.
 
