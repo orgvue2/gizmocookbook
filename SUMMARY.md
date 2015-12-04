@@ -24,7 +24,7 @@
    * [Calculating difference between two dates](chapter4/diff.md)
    * [Calculating an end date](chapter4/add.md)
 * [Conditional logic](chapter5/README.md)
-   * [if()](chapter5/if.md)
+   * [If statement](chapter5/if.md)
 * [Filters](chapter6/README.md)
 * [Lamda expression](chapter7/README.md)
 * [Optimisation tips](chapter8/README.md)
