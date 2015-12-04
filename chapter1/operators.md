@@ -1,51 +1,53 @@
 ## Supported operators
 
 #### Arithematical operators
-+ (addition)
-- (subtraction)
-* (multiplication)
+**+** (addition)
 
-/ (division)
+**-** (subtraction)
 
-% (modulus)
+***** (multiplication)
 
-** (power)
+**/** (division)
+
+**%** (modulus)
+
+****** (power)
 
 #### Bitwise operators
-& (and)
+**&** (and)
 
-| (or)
+**|** (or)
 
-^ (xor)
+**^** (xor)
 
 #### Logical operators
-AND or &&
+**AND** or **&&**
 
-OR or ||
+**OR** or **||**
 
-NOT or !
+**NOT** or **!**
 
 #### Comparison operators
-== (equal)
+**==** (equal)
 
-=== (identical)
+**===** (identical)
 
-!= (not equal)
+**!=** (not equal)
 
-!== (not identical)
+**!==** (not identical)
 
-< (less than)
+**<** (less than)
 
-.> (greater than)
+**>** (greater than)
 
-<= (less than or equal to)
+**<=** (less than or equal to)
 
-.>= (greater than or equal to)
+**>=** (greater than or equal to)
 
 #### Numeric operators
-.. (range)
+**..** (range)
 
 #### Conditional ternary operators
-foo ? 'yes' : 'no' (If “foo” then “yes” else “no”)
+**foo ? 'yes' : 'no'** (If “foo” then “yes” else “no”)
 
 
