@@ -4,9 +4,7 @@ You want to calculate total amount paid out as bonuses.
 
 ### Solution
 Specify the collection and add an aggregator, e.g. ‘sum’.
-
-nodes().currentbonus.sum
-
+```nodes().currentbonus.sum```
 
 ### Discussion
 ```nodes().currentbonus``` specifies the collection on which you want to perform the operation – “Current bonus” for all employees.
