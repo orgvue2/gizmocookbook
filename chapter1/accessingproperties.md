@@ -17,3 +17,4 @@ Any property in the Dataset can be accessed (and then manipulated) by using this
 3. Relationship properties:
 	* Node relationships are stored as a special type of property
 	* This allows you to reference nodes through their hierarchical relationships to one another
+![](accessproperty.jpg)
