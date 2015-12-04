@@ -19,7 +19,7 @@ Any property in the Dataset can be accessed (and then manipulated) by using this
 	* This allows you to reference nodes through their hierarchical relationships to one another
 
 | Syntax                 | Results                              | 
-| ---------------------- |:------------------------------------:| 
+| ---------------------- |------------------------------------| 
 | `node.parent` or `node.p` |Returns a manager of the selected node | 
 | `node.siblings` or `node.s` | Returns all nodes under the same parent node (team members) |
 | `node.children` or `node.c` | Returns all direct reports for the selected node |
