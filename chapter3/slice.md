@@ -1,4 +1,4 @@
-## slice()
+## Slicing strings: slice()
 ### Problem
 You want to take the ‘£’ off a list of salary data.
 
