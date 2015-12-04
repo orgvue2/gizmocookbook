@@ -20,7 +20,7 @@
    * [Slicing strings](chapter3/slice.md)
    * [Spliting strings](chapter3/split.md)
 * [Dates](chapter4/README.md)
-   * [age()](chapter4/age.md)
+   * [Calculating difference between two dates](chapter4/age.md)
    * [diff()](chapter4/diff.md)
    * [add()](chapter4/add.md)
 * [Conditional logic](chapter5/README.md)
