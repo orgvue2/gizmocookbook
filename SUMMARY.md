@@ -18,7 +18,7 @@
    * [format() - text](chapter3/formattext.md)
    * [join()](chapter3/join.md)
    * [slice](chapter3/slice.md)
-   * [ssplit()](chapter3/split.md)
+   * [split()](chapter3/split.md)
 * [Dates](chapter4/README.md)
    * [age()](chapter4/age.md)
    * [diff()](chapter4/diff.md)
