@@ -1,4 +1,4 @@
-## join() 
+## Combining strings: join() 
 
 ### Problem
 You want to add currency to total annual compensation by combining two existing properties; total annual compensation and ccy.
