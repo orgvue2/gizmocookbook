@@ -17,7 +17,7 @@
 * [Strings (text)](chapter3/README.md)
    * [Formatting text](chapter3/formattext.md)
    * [Combining strings](chapter3/join.md)
-   * [slice()](chapter3/slice.md)
+   * [Slicing strings](chapter3/slice.md)
    * [split()](chapter3/split.md)
 * [Dates](chapter4/README.md)
    * [age()](chapter4/age.md)
