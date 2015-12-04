@@ -11,7 +11,7 @@
    * [Supported operators](chapter1/operators.md)
 * [Numbers](chapter2/readme.md)
    * [Formatting numbers](chapter2/format.md)
-   * [Performing arithmetic calculation](chapter2/math.md)
+   * [Arithmetic calculation](chapter2/math.md)
    * [Aggregating numbers](chapter2/aggregators.md)
    * [Roll up calculation](chapter2/rollup.md)
 * [Text](chapter3/README.md)
