@@ -1,4 +1,4 @@
-## Write expressions in the property value box (not individual cells)
+## 1. Write expressions in the property value box (not individual cells)
 
 If you want to create a calculated property, writing the expression in the property value box (in the Edit Property dialog) is by far the best way of doing it. Writing directly into cells means that the expression has to be compiled for every node, rather than just once, and can cause larger datasets to run very slowly.
 
