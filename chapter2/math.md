@@ -1,4 +1,4 @@
-## Performing arithmetic calculation: math()
+## Arithmetic calculation: math()
 
 ### Problem
 You want to know “Total compensation” of each employee by adding “Salary” and “Bonus”.
