@@ -1,4 +1,4 @@
-## add()
+## Calculating an end date: add()
 ### Problem
 
 You have a set of items (project) for which you have start date and duration in days. You want to find the end date from these.
