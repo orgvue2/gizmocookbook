@@ -5,7 +5,7 @@ You want to calculate total amount paid out as bonuses.
 ### Solution
 Specify the collection and add an aggregator, e.g. ‘sum’.
 
-```nodes().currentbonus.sum```
+nodes().currentbonus.sum
 
 ### Discussion
 ```nodes().currentbonus``` specifies the collection on which you want to perform the operation – “Current bonus” for all employees.
@@ -23,6 +23,7 @@ You want to calculate average “Performance ranking” of a manager’s direct 
 
 ### Solution
 Specify the collection and add an aggregator ‘avg’.
+
 ```node.c.performanceranking.avg```
 
 
@@ -40,6 +41,7 @@ Use distinct.cnt.
 
 `nodes().hoursworkedperweek.distinct.cnt`
 
+```nodes().hours.``` 
 ### Discussion
 ```nodes().hoursworkedperweek``` will return the list of hours per week for whole organisation.
 ```nodes().hoursworkedperweek.cnt``` will count the values within the defined collection – 1505.
