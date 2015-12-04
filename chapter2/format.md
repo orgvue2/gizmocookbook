@@ -6,7 +6,7 @@ You want to convert the “Current salary” to the form of ‘###,###.##’.
 
 
 ### Solution
-Use format() and put the desired form into the () with double quotes. 
+Use `format()` and put the desired form into the () with double quotes. 
 ```
 node.currentsalary.format("000,000.00")
 ```
