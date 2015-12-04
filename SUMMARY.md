@@ -22,7 +22,7 @@
 * [Dates](chapter4/README.md)
    * [Calculating age](chapter4/age.md)
    * [Calculating difference between two dates](chapter4/diff.md)
-   * [Add a period to the date](chapter4/add.md)
+   * [Calculating the end date](chapter4/add.md)
 * [Conditional logic](chapter5/README.md)
    * [if()](chapter5/if.md)
 * [Filters](chapter6/README.md)
