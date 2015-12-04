@@ -3,7 +3,7 @@
 You want to calculate total amount paid out as bonuses.
 
 ### Solution
-Specify the collection and add an aggregator, e.g. ‘sum’.
+Specify the collection and add an aggregator, e.g. `sum`.
 
 ```
 nodes().currentbonus.sum
@@ -24,7 +24,7 @@ It can be formatted as 8,541,249 by putting `format(" ")` at the end of the synt
 You want to calculate average “Performance ranking” of a manager’s direct reports.
 
 ### Solution
-Specify the collection and add an aggregator ‘avg’.
+Specify the collection and add an aggregator `avg`.
 
 ```
 node.c.performanceranking.avg
@@ -32,7 +32,7 @@ node.c.performanceranking.avg
 
 ### Discussion
 `node.c.performanceranking.avg` defines the collection you want to perform an operation, i.e. performance ranking of the children of the selected node.
-A aggregator avg will take the averages of all the values (performance ranking) in the collection and return it – 5.016666… for CEO.
+A aggregator `avg` will take the averages of all the values (performance ranking) in the collection and return it – 5.016666… for CEO.
 
 - - -
 
@@ -40,7 +40,7 @@ A aggregator avg will take the averages of all the values (performance ranking) 
 You want to see the possible entries for “Hours worked per week”.
 
 ### Solution
-Use distinct.cnt.
+Use `distinct.cnt`.
 
 ```
 nodes().hoursworkedperweek.distinct.cnt
