@@ -1,4 +1,4 @@
-## Formatting text: format()
+## Formatting strings: format()
 ### Problem
 You want to add ‘years’ at the end of tenure years. 
 
