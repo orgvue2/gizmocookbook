@@ -1,4 +1,4 @@
-## Aggregators (sum, avg, cnt)
+## Aggregating numbers (sum, avg, cnt)
 ### Problem
 You want to calculate total amount paid out as bonuses.
 
