@@ -17,4 +17,21 @@ Any property in the Dataset can be accessed (and then manipulated) by using this
 3. Relationship properties:
 	* Node relationships are stored as a special type of property
 	* This allows you to reference nodes through their hierarchical relationships to one another
-	![](accessproperty.jpg)
+
+| Syntax                 | Results                              | 
+| ---------------------- |:------------------------------------:| 
+| `node.parent` or `node.p` |Returns a manager of the selected node | 
+| `node.siblings` or `node.s` | Returns all nodes under the same parent node (team members) |
+| `node.children` or `node.c` | Returns all direct reports for the selected node |
+| `node.descendants` or `node.d` | Returns all reports for the selected node |
+| `node.d(2)` | Returns all descendants starting two levels below the selected node  |
+| `node.d(1,2)` | Selects all descendants between 1 and 2 levels below the selected node  |
+| `node.d(0,2)` | Returns the node itself and all descendants starting two levels below  |
+
+
+
+
+ 
+ 
+ 
+ 
