@@ -6,7 +6,7 @@
    * [Expression Panel](chapter1/expressionpanel.md)
    * [Nodes and collections](chapter1/nodesandcollections.md)
    * [Basic grammar](chapter1/grammar.md)
-   * [Accessing Proerties](chapter1/accessingproperties.md)
+   * [Accessing Properties](chapter1/accessingproperties.md)
    * [Calling methods](chapter1/callingmethods.md)
    * [Supported operators](chapter1/operators.md)
 * [Numbers](chapter2/readme.md)
