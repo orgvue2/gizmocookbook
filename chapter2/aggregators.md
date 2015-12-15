@@ -32,7 +32,7 @@ node.c.performanceranking.avg
 
 ### Discussion
 `node.c.performanceranking.avg` defines the collection you want to perform an operation, i.e. performance ranking of the children of the selected node.
-A aggregator `avg` will take the averages of all the values (performance ranking) in the collection and return it – 5.016666… for CEO.
+An aggregator `avg` will take the averages of all the values (performance ranking) in the collection and return it – 5.016666… for CEO.
 
 - - -
 
