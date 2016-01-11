@@ -1,4 +1,4 @@
-## Formatting nubmers: format()
+## Formatting nubmers: format(), join()
 
 
 ### Problem
@@ -19,3 +19,15 @@ The format method ```number1.format()``` puts the number into the desired form t
 
 Specifying the form with 
 ```node.currentsalary.format("000,000.00") ```will return 408,599.00 as desired.
+
+---
+
+### Problem
+You want to convert values in fraction into percentage, e.g. 0.2 into 20%.
+
+### Solution
+`join()` can be used to amalgamate two or more properties.
+
+```
+[node.fraction*100,"%"].join('')
+```
