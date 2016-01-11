@@ -5,8 +5,7 @@ This cookbook is the collection of Gizmo expression recipes. It covers basic gra
 
 Most of the examples are based on 1505 Dataset the practice dataset used in official OrgVue training. 
 
-#### Other resources:
-
-[OrgVue Website](http://orgvue.com/)
+Please visit
+[OrgVue Website](http://orgvue.com/training-certification)
 
 [OrgVue Portal](https://support.orgvue.com/)
