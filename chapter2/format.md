@@ -23,11 +23,16 @@ Specifying the form with
 ---
 
 ### Problem
-You want to convert values in fraction into percentage, e.g. 0.2 into 20%.
+You want to convert the values in fraction into percentages, e.g. 0.2 into 20%.
 
 ### Solution
-`join()` can be used to amalgamate two or more properties.
+`join()` can be used to amalgamate two or more elements.
 
 ```
 [node.fraction*100,"%"].join('')
 ```
+
+### Discussion
+`node.fraction*100` converts the fractions into integers.
+`[node.fraction*100,"%"].join('')` here `join()` combines two items in the [ ].
+
