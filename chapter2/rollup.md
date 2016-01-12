@@ -13,8 +13,8 @@ node.rollUp("sum","currentsalary")
 ### Discussion:
 `rollUp()` is particularly useful in the context of oranisational hierarchy as it summarises hierarchical information more efficiently than using node.d. It can be used to calculate the sum, average, count, maximum, or minimum of the property values for a node and its descendants.
 
-`node.rollUp("sum","currentsalary")` sums up all current salaries for nodes in hierarchy up to and including the selected node.
-‘sum’ can be replaced with ‘avg’, ‘cnt’, ‘max’, ‘min’ to perform other operations depending on situation.
+`node.rollUp("sum","currentsalary")` sums up all current salaries for nodes in the hierarchy up to and including the selected node.
+‘sum’ can be replaced with ‘avg’, ‘cnt’, ‘max’, ‘min’ to perform other operations depending on the situation.
 
 `node.d.currentsalary.sum` technically does the same operation. But it’s highly inefficient as it will evaluate every node – not recommended. This will make the Dataset run slowly.
 
