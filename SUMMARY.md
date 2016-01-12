@@ -1,7 +1,7 @@
 # Summary
 
 * [Preface](README.md)
-* [Introduction to Gizmo Expression](chapter1/readme.md)
+* [Introduction to Gizmo Expressions](chapter1/readme.md)
    * [Introduction](chapter1/introduction.md)
    * [Expression Panel](chapter1/expressionpanel.md)
    * [Nodes and collections](chapter1/nodesandcollections.md)
