@@ -1,7 +1,7 @@
 ## Combining strings: replace() 
 
 ### Problem
-All the "Marketing Analyst" in the "Role" property need to change to "Finance Analyst".
+All instances of the value "Marketing Analyst" in the "Role" property needs to be changed to "Finance Analyst".
 
 
 ### Solution
