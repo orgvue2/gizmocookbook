@@ -1,4 +1,4 @@
-# Introduction to Gizmo expression
+# Introduction to Gizmo expressions
 
 OrgVue’s scripting language Gizmo allows you to perform querying, calculations, aggregations and transformations.
 
