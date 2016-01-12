@@ -26,7 +26,7 @@
    * [Calculating an end date](chapter4/add.md)
 * [Conditional logic](chapter5/README.md)
    * [If statement](chapter5/if.md)
-* [Lamda expression](chapter7/README.md)
+* [Lamda expression](chapter71/README.md)
 * [Filter](chapter6/README.md)
 * [Optimisation tips](chapter8/README.md)
    * [Write expressions in the property value box](chapter8/tip1.md)
