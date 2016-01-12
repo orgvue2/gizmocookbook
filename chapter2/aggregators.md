@@ -1,6 +1,6 @@
 ## Aggregating numbers (sum, avg, cnt)
 ### Problem
-You want to calculate total amount paid out as bonuses.
+You want to calculate the total amount paid out as bonuses.
 
 ### Solution
 Specify the collection and add an aggregator, e.g. `sum`.
@@ -48,11 +48,11 @@ nodes().hoursworkedperweek.distinct.cnt
 
 
 ### Discussion
-```nodes().hoursworkedperweek``` will return the list of hours per week for whole organisation.
+```nodes().hoursworkedperweek``` will return the list of hours per week for whole the organisation.
 
 ```nodes().hoursworkedperweek.cnt``` will count the values within the defined collection – 1505.
 
-```nodes().hoursworkedperweek.distinct``` returns same collection without repeated values – 40, 25, 30.
+```nodes().hoursworkedperweek.distinct``` returns the same collection without repeated values – 40, 25, 30.
 
 Then ```nodes().hoursworkedperweek.distinct.cnt``` counts the distinct values in the collection – 3. 
 
