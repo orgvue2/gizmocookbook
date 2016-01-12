@@ -23,4 +23,4 @@ Define 2 or more collections you want to join in the [ ] separated by commas as 
 
 Note that there is a space between the two double quotes – `join(" ")`. This gives a space between two values.
 
-When no conditional logic involved, `format()` which is simpler is preferred.
+When no conditional logic is involved, `format()`, which is simpler, is preferred.
