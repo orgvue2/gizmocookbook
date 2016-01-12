@@ -11,8 +11,6 @@
 
 **%** (modulus)
 
-****** (power)
-
 #### Bitwise operators
 **&** (and)
 
