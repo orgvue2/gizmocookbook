@@ -35,12 +35,12 @@ node.matrixmanagerid > 0 ? node.matrixmanagerid : node.linemanagerid
 ### Try to keep up-to-date on the newest syntax
 e.g. expressions like format() are frequently developed to make common functions easier and faster.
 ```
-[node.firstname,node.lastname].join(‘ ’)
+[node.firstname,node.lastname].join(' ')
 ```
 vs.
 ```
-node.format(‘{firstname}{lastname}’)
+node.format('{firstname}{lastname}')
 ```
 ### Bear in mind what the purpose of the expression is
 
-** Note: ** Remember that dots ‘.’ are expensive!
+** Note: ** Remember that dots '.' are expensive!
