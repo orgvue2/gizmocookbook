@@ -6,7 +6,7 @@ If you want to filter the nodes according to some condition or a specific proper
 ```
 nodes().filter(n=>n[condition])
 ```
-`n=>n` called a ‘lamda expression’ – *see '[Lamda expression](chapter7.md)'*.
+`n=>n` called a ‘lamda expression’ – *see '[Lamda expression](content/chapter7.md)'*.
 
 ### Examples
 1. List all the women in the organisation
