@@ -20,13 +20,13 @@ node.age > 55 ? "Risk" : "No Risk"
 ### Discussion
 Generic form for conditional logic is `if (condition) {return value}`.
 
-As a general rule, '{}' denotes the parts of expressions to be executed - the ‘then’ part that is returned when the condition is met, e.g. `if (node.age > 55) {“Risk"}`; this will return Risk if the age of the current node is over 55.
+As a general rule, '{}' denotes the parts of expressions to be executed - the ‘then’ part that is returned when the condition is met, e.g. `if (node.age > 55) {"Risk"}`; this will return Risk if the age of the current node is over 55.
 
 Including `else {}` adds a contingency. In this example, if the current node (employee) is 55 or younger than 55, No Risk will be returned.
 
 `a? b: c` can replace `if(){} else{}`.
 
-** Note: ** Use operators to add nuance to the condition, e.g. `if (node.country == "UK“ && node.depth < 3) {"UK Management"}`.
+** Note: ** Use operators to add nuance to the condition, e.g. `if (node.country == "UK" && node.depth < 3) {"UK Management"}`.
 
 ---
 
@@ -36,10 +36,10 @@ You want to classify performance ranking data; 8-10 as A, 6-8 as B, 4-6 as C and
 ### Solution
 (1)
 ```
-if(node.performanceranking > 8) {“A”}
-else if(node.performanceranking > 6) {“B”}
-else if(node.performanceranking > 4) {“C”}
-else {“D”}
+if(node.performanceranking > 8) {"A"}
+else if(node.performanceranking > 6) {"B"}
+else if(node.performanceranking > 4) {"C"}
+else {"D"}
 ```
 
 (2)
