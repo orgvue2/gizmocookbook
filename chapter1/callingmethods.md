@@ -1,5 +1,5 @@
 ## Calling methods
-There are number of methods which allow you to further manipulate accessed collection.
+There are a number of methods which allow you to further manipulate the accessed collection.
 
 The . (‘dot’) syntax is used to call methods on a collection. 
 
