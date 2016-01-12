@@ -3,11 +3,11 @@ OrgVue expressions are written using Gizmo, a subset of JavaScript. Whilst you c
 ### Don’t repeat yourself
 e.g. If referencing the same property multiple times, assign it to a variable:
 ``` 
-if (node.appraisalgrade == “A”) then {5}
-else if (node.appraisalgrade == “B”) then {4}
-else if (node.appraisalgrade == “C”) then {3}
-else if (node.appraisalgrade == “D”) then {2}
-else if (node.appraisalgrade == “E”) then {1}
+if (node.appraisalgrade == "A") then {5}
+else if (node.appraisalgrade == "B") then {4}
+else if (node.appraisalgrade == "C") then {3}
+else if (node.appraisalgrade == "D") then {2}
+else if (node.appraisalgrade == "E") then {1}
 else {|}
 ```
 vs.
