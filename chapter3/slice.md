@@ -12,7 +12,7 @@ node.salary.value.slice(1)
 ### Discussion
 Generic form is `node.<property>.value.slice([index1], [index2])` and it returns the text block from the first index (inclusive) to the second index (exclusive) of the property.
 
-Putting ‘value’ is to extract the raw value from the collection. 
+Putting ‘value’ will extract the raw value from the collection. 
 
 The first character in the block is index = 0.
 
