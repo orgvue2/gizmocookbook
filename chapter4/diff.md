@@ -15,7 +15,7 @@ date(2015,12,21).diff(date(2015,10,10))
 
 Note the date should be in the form of ‘date(yyyy,mm,dd)’.
 
-`date(2015,12,21).diff(date(2015.10.10))` returns 72days. If you swap the 2 dates, you get ‘-72’ – so make sure the later date comes first in the expression.
+`date(2015,12,21).diff(date(2015,10,10))` returns 72days. If you swap the 2 dates, you get ‘-72’ – so make sure the later date comes first in the expression.
 
 ‘diff’ defaults to a unit of a day. However, you can pass the unit to use as the second parameter, for example, `date(2015,12,21).diff(date(2015,10,10),'m')` to calculate the difference in months. ‘m’ can be replaced with ‘y’ for years and ‘d’ for days.
 
