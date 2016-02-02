@@ -8,7 +8,7 @@ else if (node.appraisalgrade == "B") then {4}
 else if (node.appraisalgrade == "C") then {3}
 else if (node.appraisalgrade == "D") then {2}
 else if (node.appraisalgrade == "E") then {1}
-else {|}
+else {"Other"}
 ```
 vs.
 ```
