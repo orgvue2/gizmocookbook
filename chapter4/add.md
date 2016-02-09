@@ -5,7 +5,7 @@ You have a set of items (project) for which you have start date and duration in 
 
 
 ### Solution
-```
+```javascript
 node.start_date.add(number of days)
 ```
 
