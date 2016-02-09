@@ -13,7 +13,7 @@ Rather than typing individual expressions directly into the Default Value box fo
 
 ![](tip4-1.jpg)
 
-Create In this way, the default expressions you would usually enter into each property separately can all be combined, and evaluated, as a single property.
-The other properties are updated when the settemporary expression is evaluated, which is dependent on its own evaluation mode.
+Created in this way, the default expressions you would usually enter into each property separately can all be combined, and evaluated, as a single property.
+The other properties are updated when the `settemporary` expression is evaluated, which is dependent on its own evaluation mode.
 ![](tip4-2.jpg)
 ![](tip4-3.png)
