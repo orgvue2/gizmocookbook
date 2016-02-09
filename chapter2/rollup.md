@@ -5,7 +5,7 @@ You want to calculate total salary of a team.
 ### Solution
 Use `rollUp(aggregator, property)` and define the property and the aggregator.
 
-```
+```javascript
 node.rollUp("sum","currentsalary") 
 ```
 
