@@ -7,7 +7,7 @@ You want to know “Total compensation” of each employee by adding “Salary�
 ### Solution
 Use `math()` and insert the formula using common arithmetical operators in the bracket with double quotes.
 
-```
+```javascript
 node.math("currentsalary+currentbonus")
 
 ```
@@ -26,7 +26,7 @@ You want to calculate the percentage of “Benefits” to “Total annual compen
 ### Solution
 Use `math()` operation and common arithmetical operators, for this example: 
 
-```
+```javascript
 node.math("(totalbenefits/totalannualcompensation)*100").format("0.00")
 ```
 
