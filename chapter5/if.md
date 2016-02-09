@@ -3,8 +3,8 @@
 You want to know who are reaching close towards the retirement age and possible leave the company in near future.
 
 ### Solution
-Use if(){} else if(){} else{}:
-```
+Use `if(){} else if(){} else{}`:
+```javascript
 if (node.age > 55) {"Risk"}
 else {"No Risk"}
 ```
@@ -12,7 +12,7 @@ else {"No Risk"}
 
 Or shorten the syntax using a ? b : c (ternary) syntax.
 
-```
+```javascript
 node.age > 55 ? "Risk" : "No Risk"
 ```
 
@@ -35,7 +35,7 @@ You want to classify performance ranking data; 8-10 as A, 6-8 as B, 4-6 as C and
 
 ### Solution
 (1)
-```
+```javascript
 if(node.performanceranking > 8) {"A"}
 else if(node.performanceranking > 6) {"B"}
 else if(node.performanceranking > 4) {"C"}
@@ -43,7 +43,7 @@ else {"D"}
 ```
 
 (2)
-```
+```javascript
 var pr = node.performanceranking
 if(pr > 8){"A"}
 else if(pr > 6){"B"}
