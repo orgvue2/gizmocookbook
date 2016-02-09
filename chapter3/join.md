@@ -6,14 +6,14 @@ You want to add currency to total annual compensation by combining two existing 
 ### Solution
 `join()` can be used to amalgamate two or more properties.
 
-```
+```javascript
 [node.totalannualcompensation,node.ccy].join(" ")
 ```
 
 
 Or simply use `format("{property} {property}")`.
 
-```
+```javascript
 node.format("{totalannualcompensation} {ccy}")
 ```
 
