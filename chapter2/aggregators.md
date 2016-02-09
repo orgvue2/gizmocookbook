@@ -5,7 +5,7 @@ You want to calculate the total amount paid out as bonuses.
 ### Solution
 Specify the collection and add an aggregator, e.g. `sum`.
 
-```
+```javascript
 nodes().currentbonus.sum
 ```
 
@@ -42,7 +42,7 @@ You want to see the possible entries for “Hours worked per week”.
 ### Solution
 Use `distinct.cnt`.
 
-```
+```javascript
 nodes().hoursworkedperweek.distinct.cnt
 ```
 
