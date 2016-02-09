@@ -7,7 +7,7 @@ You want to convert the “Current salary” to the form of ‘###,###.##’.
 
 ### Solution
 Use `format()` and put the desired form into the () with double quotes. 
-```
+```javascript
 node.currentsalary.format("000,000.00")
 ```
 ### Discussion
@@ -28,7 +28,7 @@ You want to convert the values in fraction into percentages, e.g. 0.2 into 20%.
 ### Solution
 `join()` can be used to amalgamate two or more elements.
 
-```
+```javascript
 [node.fraction*100,"%"].join('')
 ```
 
