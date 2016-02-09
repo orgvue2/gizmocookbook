@@ -2,7 +2,7 @@
 OrgVue expressions are written using Gizmo, a subset of JavaScript. Whilst you can’t be expected to write expressions like a developer, there are some simple rules you can follow to make your expressions quicker to run and proof check:
 ### Don’t repeat yourself
 e.g. If referencing the same property multiple times, assign it to a variable:
-``` 
+``` javascript
 if (node.appraisalgrade == "A") then {5}
 else if (node.appraisalgrade == "B") then {4}
 else if (node.appraisalgrade == "C") then {3}
@@ -11,7 +11,7 @@ else if (node.appraisalgrade == "E") then {1}
 else {"Other"}
 ```
 vs.
-```
+```javascript
 var grade = {
    A: 5,
    B: 4,
@@ -23,22 +23,22 @@ grade[node.appraisalgrade]
 ```
 ### Make expressions easy to follow
 e.g. Use the shorthand form of if statement (called “ternary”)
-```
+```javascript
 if (node.matrixmanagerid > 0) then {node.matrixmanagerid}
 else node.linemanagerid
 ```
 vs. 
-```
+```javascript
 node.matrixmanagerid > 0 ? node.matrixmanagerid : node.linemanagerid
 ```
 
 ### Try to keep up-to-date on the newest syntax
 e.g. expressions like format() are frequently developed to make common functions easier and faster.
-```
+```javascript
 [node.firstname,node.lastname].join(' ')
 ```
 vs.
-```
+```javascript
 node.format('{firstname}{lastname}')
 ```
 ### Bear in mind what the purpose of the expression is
