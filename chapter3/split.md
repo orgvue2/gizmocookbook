@@ -5,7 +5,7 @@ You want to split full name into first name and last name.
 ### Solution
 Use split() to break up a string at delimiter, a space for full name.
 
-```
+```javascript
 node.fullname.value.split(" ")
 ```
 
