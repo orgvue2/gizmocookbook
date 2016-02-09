@@ -4,7 +4,7 @@ You want to calculate age for employees using their date of birth data.
 
 ### Solution
 `date1.age()` tells you how long ago a date occurred.
-```
+```javascript
 node.dateofbirth.age()```
 
 
@@ -22,7 +22,7 @@ You want to know the average tenure of employees in your organisation, in weeks.
 ### Solution
 Use `age()` and put a parameter to see the value in weeks.
 
-```
+```javascript
 nodes().rolestartdate.age('w').avg
 ```
 
