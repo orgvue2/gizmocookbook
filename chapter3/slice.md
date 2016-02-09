@@ -4,7 +4,7 @@ You want to take the ‘£’ off a list of salary data.
 
 ### Solution
 Use slice() to return a sub string of text.
-```
+```javascript
 node.salary.value.slice(1)
 ```
 
