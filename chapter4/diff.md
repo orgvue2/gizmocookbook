@@ -5,7 +5,7 @@ Today is the 10th of October 2015 and Christmas holiday for this year starts on 
 ### Solution
 Use `diff()` and manually input 2 custom dates in the date(yyyy,mm,dd) format.
 
-```
+```javascript
 date(2015,12,21).diff(date(2015,10,10))
 ```
 
@@ -28,7 +28,7 @@ You want to know the average age of employees when they joined the company using
 ### Solution
 Use `diff()` and an aggregator avg:
 
-```
+```javascript
 nodes().startdate.diff(node.dateofbirth,'y').avg
 ```
 
