@@ -3,7 +3,7 @@
 
 If you want to filter the nodes according to some condition or a specific property value, the expression returns all nodes for which the condition is true.
 ### Generic form
-```
+```javascript
 nodes().filter(n=>n[condition])
 ```
 `n=>n` called a ‘lamda expression’ – *see '[Lamda expression](../chapter7/index.html)'*.
