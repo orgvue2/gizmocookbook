@@ -1,6 +1,6 @@
 Gizmo Cookbook draft
 =======
-Y
+
 This cookbook is the collection of Gizmo expression recipes. It covers the basic grammar of the Gizmo language, common expressions and optimisation tips. 
 
 Most of the examples are based on 1505 Dataset, the practice dataset used in official OrgVue training. 
