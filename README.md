@@ -1,4 +1,4 @@
-Gizmo Cookbook draft
+Gizmo Cookbook
 =======
 
 This cookbook is the collection of Gizmo expression recipes. It covers the basic grammar of the Gizmo language, common expressions and optimisation tips. 
