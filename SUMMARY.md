@@ -36,5 +36,5 @@
    * [Keep the tenant tidy](chapter8/tip5.md)
 * [Extension](chapter9/readme.md)
    * [Custom dimensions](chapter9/custom_dimension.md)
-   * [Expression Pane table](chapter9/expression_pane_table.md)
+   * [Expression Pane Tables](chapter9/expression_pane_table.md)
 
