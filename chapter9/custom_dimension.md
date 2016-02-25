@@ -91,7 +91,7 @@ NB. Make sure to match up all your brackets
 
 ## Examples of custom dimension scripts
 
-### Active positions based on month:
+### Active positions based on month
 ```js
 /** {"name":"Active Positions"} */
 api.register({
