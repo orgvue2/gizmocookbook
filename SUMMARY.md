@@ -34,7 +34,7 @@
    * [Configure expressions so they re-calculate only as needed](chapter8/tip3.md)
    * [Use settemporary()](chapter8/tip4.md)
    * [Keep the tenant tidy](chapter8/tip5.md)
-* [Extension](chapter9/readme.md)
+* [Advanced Expressions](chapter9/readme.md)
    * [Custom dimensions](chapter9/custom_dimension.md)
    * [Expression Pane Tables](chapter9/expression_pane_table.md)
 
