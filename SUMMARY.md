@@ -35,4 +35,5 @@
    * [Use settemporary()](chapter8/tip4.md)
    * [Keep the tenant tidy](chapter8/tip5.md)
 * [Extension](chapter9.md)
+   * Custom dimension
 
