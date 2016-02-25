@@ -171,7 +171,6 @@ global.classifyNode = function(nd){
 /** {"name":"CSV Contains Filter"} */
 
 api.register({
-
 	type: "dimension",
 	name: "CSV Contains",
 	start: function(event) {
