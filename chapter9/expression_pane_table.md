@@ -30,10 +30,12 @@ global.changes = function(nd){array(
 {
   "Change":"Node(s) added",
   "Count":global.changeCount("created")
-},{
+},
+{
   "Change":"Node(s) updated",
   "Count":global.changeCount("updated")
-},{
+},
+{
   "Change":"Node(s) deleted",
   "Count":global.changeCount("deleted")
 });
@@ -81,10 +83,12 @@ array(
 {
 "Change":"Node(s) added",
 "Count":global.changeCount("created")
-},{
+},
+{
 "Change":"Node(s) updated",
 "Count":global.changeCount("updated")
-},{
+},
+{
 "Change":"Node(s) deleted",
 "Count":global.changeCount("deleted")
 }
@@ -150,15 +154,12 @@ Output numerical summary of dataset quality into Excel
 * Name: `global.dataSummary()`
 * Script:
 ```js
-// Size and shape of dataset
 global.properties = function(){
 view.properties.filter(p=>!p.isgenerated);
-}
-;
+};
 global.propertyCount = function(thisProperty){
 global.properties().filter(p=>p.type==thisProperty).count
-}
-;
+};
 global.dataSummary=function(nd){
 nc = nodes().count;
 array(
@@ -174,7 +175,7 @@ array(
 ));
 };
 ```
-* What it does: Lists number of nodes and properties (per type)
+* What it does: Lists number of nodes and properties; data size and shape (per type)
 * When use it: For a brief look at the type of data in the dataset - data type, # nodes and properties, without having to use dashboards or filter control
 Output numerical summary of dataset into Excel
 
