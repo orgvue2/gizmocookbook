@@ -17,6 +17,7 @@ Any property in the Dataset can be accessed (and then manipulated) by using this
 3. Relationship properties:
 	* Node relationships are stored as a special type of property
 	* This allows you to reference nodes through their hierarchical relationships to one another
+	
 
 | Syntax                 | Results                              | 
 | ---------------------- |------------------------------------| 
@@ -28,10 +29,7 @@ Any property in the Dataset can be accessed (and then manipulated) by using this
 | `node.d(1,2)`| Selects all descendants between 1 and 2 levels below the selected node  |
 | `node.d(0,2)` | Returns the node itself and all descendants starting two levels below  |
 
-
-
-
  
- 
+ N.B. These expressions will perform calculations on the filtered sub-set of your data when any filters applied. Putting an 'a' or 'all' before relationship properties, e.g. `ac` or `allchildren`, `as` or `allsiblings`, `ad` or `alldescendants` will ignore filters
  
  
