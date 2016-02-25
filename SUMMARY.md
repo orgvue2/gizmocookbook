@@ -34,6 +34,6 @@
    * [Configure expressions so they re-calculate only as needed](chapter8/tip3.md)
    * [Use settemporary()](chapter8/tip4.md)
    * [Keep the tenant tidy](chapter8/tip5.md)
-* [Extension](chapter9.md)
+* [Extension](chapter9/readme.md)
    * [Custom dimension](chapter9/custom_dimension.md)
 
