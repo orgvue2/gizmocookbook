@@ -17,5 +17,7 @@ A space or a comma are common delimiters, as in ‘Reece Harris’ from the 1505
 
 If the string is written in the format of ‘Harris, Reece’, `node.fullname.value.split(", ")` will be used.
 
-Putting [index] - `node.fullname.value.split(" ")[0]` will return a substring before the delimiter – Reece for Reece Harris.
-
+Putting [0] / [1] will return a substring before / after the delimiter.
+For Reece Harris,
+`node.fullname.value.split(" ")[0]` returns Reece.
+`node.fullname.value.split(" ")[1]` returns Harris.
