@@ -8,7 +8,7 @@ Assuming the field (property) for which the median is required is Current Salary
 
 ### Discussion
 
-If you just type in `nodes().stats('Current Salary')` it will print box and whiskers plot in the Expression Pane. Adding a dot at the end `nodes().stats('Current Salary').` will list stats available for the 'Current Salary' property.
+If you just type in `nodes().stats('Current Salary')` it will print a box and whiskers plot in the Expression Pane. Adding a dot at the end `nodes().stats('Current Salary').` lists stats available for the 'Current Salary' property.
 
 ---
 
