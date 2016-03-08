@@ -1,4 +1,4 @@
-## View statstics: stats()
+## View stats: stats()
 
 ### Problem
 You want to calculate median salary of the whole organisation.
