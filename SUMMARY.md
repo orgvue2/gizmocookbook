@@ -14,6 +14,7 @@
    * [Arithmetic calculation](chapter2/math.md)
    * [Aggregating numbers](chapter2/aggregators.md)
    * [Roll up calculation](chapter2/rollup.md)
+   * View statstics
 * [Strings (text)](chapter3/README.md)
    * [Formatting strings](chapter3/formattext.md)
    * [Combining strings](chapter3/join.md)
