@@ -34,6 +34,6 @@ You want to get summary stats for a measure, e.g. performance score
 You want to get a linear regression for 2 measures, e.g. performance score and current salary
 
 ### Solution
-`nodes().stats('performance score','current salary')`
+`nodes().regression('performance score','current salary')`
 
 
