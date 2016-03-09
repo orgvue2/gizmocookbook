@@ -21,3 +21,19 @@ When you want to perform a calculation on a subset of dataset, filter() needs to
 ### Discussion
 
 [Filter chapter](https://orgvue.gitbooks.io/gizmocookbook/content/chapter6/index.html) and [Lamda expression chapter](https://orgvue.gitbooks.io/gizmocookbook/content/chapter7/index.html) explain `filter()` and `n=>n` in detail.
+
+---
+### Problem
+You want to get summary stats for a measure, e.g. performance score
+
+### Solution
+`nodes().stats('performance score').transpose` will display summary stats in a table. 
+
+---
+### Problem
+You want to get a linear regression for 2 measures, e.g. performance score and current salary
+
+### Solution
+`nodes().stats('performance score','current salary')`
+
+
