@@ -1,4 +1,4 @@
-## Custom dimensions
+# Custom dimensions
 #### What are custom dimensions?
 A custom calculated dimension is a property created by the user that only exists within the filter and pagination controls.
 The user can write a list of criteria to define which nodes are placed into which value bins.
