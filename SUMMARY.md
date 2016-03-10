@@ -38,4 +38,5 @@
 * [Advanced Expressions](chapter9/readme.md)
    * [Custom dimensions](chapter9/custom_dimension.md)
    * [Expression Pane Tables](chapter9/expression_pane_table.md)
+   * Gizmo Idioms
 
