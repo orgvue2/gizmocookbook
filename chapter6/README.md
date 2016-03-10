@@ -1,5 +1,4 @@
-# Filter
-## filter()
+# Filter: filter()
 
 If you want to filter the nodes according to some condition or a specific property value, the expression returns all nodes for which the condition is true.
 ### Generic form
