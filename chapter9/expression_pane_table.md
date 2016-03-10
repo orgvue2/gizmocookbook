@@ -1,14 +1,13 @@
-# Expression Pane tables
+## Expression Pane Tables
+#### What are expression pane tables?
 
-## What are expression pane tables?
-
-Expression pane tables are a new and growing feature of OrgVue. Recently the OrgVue team have been designing expressions that, when evaluated, generate a mini table in the returns pane. An existing example of this capability is the stats table, e.g.
+Expression pane tables are a new and growing feature of OrgVue. Recently the OrgVue team have been designing expressions that, when evaluated, generate a mini table in the returns pane. An existing example of this capability is the stats table, e.g.:
 ```js
 nodes().stats('total_cost').transpose
 ```
 Currently we have developed around a dozen of these ‘array/table expressions’.
 
-## Why use expression pane tables?
+#### Why use expression pane tables?
 
 The aim of these tables is to enhance the user’s OrgVue experience. Expression pane tables have been developed for a number of use cases, e.g.
 * Summarising the changes that have been made since the last save
@@ -30,12 +29,10 @@ global.changes = function(nd){array(
 {
   "Change":"Node(s) added",
   "Count":global.changeCount("created")
-},
-{
+},{
   "Change":"Node(s) updated",
   "Count":global.changeCount("updated")
-},
-{
+},{
   "Change":"Node(s) deleted",
   "Count":global.changeCount("deleted")
 });
@@ -44,37 +41,46 @@ global.changeCount = function(actionType){
 view.changeset()._action.filter(c=>c==actionType).count;};
 ```
 
-This has 2 main consequences:
+This has 2 main consequences
 * Expression pane tables can be generated simply by typing the global expression name: global.changes()
 * Expressions can be stored in useful ways.
 
 You will notice that there is another global expression nested inside the one above, which is also useful.
 
-## Example expression tables
+#### What are the different types of display tables?
+There are 2 types of expression pane tables: Static & Dynamic.
 
-### Find non-generated properties
-* Name: `global.properties()`
-* Script:
+[table]
+
+### Example expression tables
+
+#### Find non-generated properties
+* Name: global.properties()
+* What it does: Lists all the non-generated properties in the dataset
+* When use it: a) Quick review of a dataset's properties without having to scroll through the properties pane/filter control/sidebar
+b) Pastign dataset properties out of OrgVue without having to delete nodes at the end"
+
+Script:
 ```js
 global.properties = function(){
     view.properties.filter(p=>!p.isgenerated);
 };
 ```
-Note: Can be modified to:
-    - add `.sort('type','desc')` to sort by Data Type
-    - add `.sort('name',’asc')` to sort alphabetically
+
+Note: "Can be modified to:
+- add .sort('type','desc') to sort by Data Type
+- add .sort('name',’asc') to sort alphabetically"
 
 
-* What it does: Lists all the non-generated properties in the dataset
-* When use it: a) Quick review of a dataset's properties without having to scroll through the Properties Pane/ Filter Control/  Side Panel
-b) Pasting dataset properties out of OrgVue without having to delete nodes
-
-
-
-### View the node changes since last save
+#### View the node changes since last save
 * Name: `global.changes()`
-* Script:
+* What it does: Lists the changes made since last save (Throws an error if no changes have been made).
+* When use it: Making multiple changes to a dataset without needing a refresh (unlike filter control).
+
+Script:
+
 ```js
+// lists the changes made since last save
 global.changeCount = function(actionType){
 view.changeset()._action.filter(c=>c==actionType).count;
 };
@@ -83,25 +89,24 @@ array(
 {
 "Change":"Node(s) added",
 "Count":global.changeCount("created")
-},
-{
+},{
 "Change":"Node(s) updated",
 "Count":global.changeCount("updated")
-},
-{
+},{
 "Change":"Node(s) deleted",
 "Count":global.changeCount("deleted")
 }
 );
 };
 ```
-* What it does: Lists the changes made since last save (Throws an error if no changes have been made)
-* When use it: Making multiple changes to a dataset without needing a refresh (unlike filter control)
 
-
-### Summarise RAG status in an objectives dataset
+#### Summarise RAG status in an objectives dataset
 * Name: `global.rag()`
-* Script:
+* What it does: Shows RAG status statistics (if applicable) - filter-dependent. (Throws an error if the dataset does not contain a property called ‘current_rag’).
+* When use it: Quick numerical summary of RAG status without recalculating/having to leave worksheet
+
+Script:
+
 ```js
 // RAG status statistics (if applicable)
 global.rag = function(property) {
@@ -121,14 +126,19 @@ return {
 })
 };
 ```
-* What it does: Shows RAG status statistics (if applicable) - filter-dependent. (Throws an error if the dataset does not contain a property called ‘current_rag’).
-* When use it: Quick numerical summary of RAG status without recalculating/having to leave worksheet
 
-### Summarise data quality
+#### Summarise data quality
 
 * Name: `global.dataQuality()`
-* Script:
-* ```js
+* What it does: Overviews completeness and quality of the data (Completeness score to be defined)
+Shows mostly the same metrics as the Data Types and Patterns dashboard but in an Excel-friendly format.
+* When use it: Review changes to data quality whilst in worksheet
+Output numerical summary of dataset quality into Excel
+
+Script:
+
+```js
+// Dataset quality
 global.dataQuality=function(nd){
 nc = nodes().count;
 topLevel = nodes().filter(n=>n.depth==1);
@@ -144,22 +154,26 @@ array(
 );
 };
 ```
-* What it does: Overviews completeness and quality of the data (Completeness score to be defined). Shows mostly the same metrics as the Data Types and Patterns dashboard but in an Excel-friendly format
-* When use it: Review changes to data quality whilst in worksheet
-Output numerical summary of dataset quality into Excel
 
-
-### See high-level dataset meta-data
+#### See high-level dataset meta-data
 
 * Name: `global.dataSummary()`
-* Script:
+* What it does: Lists number of nodes and properties (per type)
+* When use it: For a brief look at the type of data in the dataset - data type, # nodes and properties, without having to use dashboards or filter control
+Output numerical summary of dataset into Excel
+
+Script:
+
 ```js
+// Size and shape of dataset
 global.properties = function(){
 view.properties.filter(p=>!p.isgenerated);
-};
+}
+;
 global.propertyCount = function(thisProperty){
 global.properties().filter(p=>p.type==thisProperty).count
-};
+}
+;
 global.dataSummary=function(nd){
 nc = nodes().count;
 array(
@@ -175,15 +189,17 @@ array(
 ));
 };
 ```
-* What it does: Lists number of nodes and properties; data size and shape (per type)
-* When use it: For a brief look at the type of data in the dataset - data type, # nodes and properties, without having to use dashboards or filter control
-Output numerical summary of dataset into Excel
 
-### View variance of specified property
+#### View variance of specified property
 
 * Name: `global.mathMoments(nodes().<propertyInQuestion>)`
-* Script:
+* What it does: Shows the mathematical moments of defined property (statistics of Variance)
+* When use it: Need to calculate statistical variance
+
+Script:
+
 ```js
+// Shows mathematical moments of defined property
 global.mathMoments = function(anyProperty){
 n = nodes().count;
 mean = anyProperty.sum/n;
@@ -205,14 +221,17 @@ array(
 );
 };
 ```
-* What it does: Shows the mathematical moments of defined property (statistics of Variance)
-* When use it: Need to calculate statistical variance
 
-### View what global expressions there are
+#### Remember what global expressions there are
 
 * Name: `global.list()` || `global.listFull()`
-* Script:
+* What it does: Lists all these expressions (listFull includes descriptions)
+* When use it: Wanting to use one of these expressions without consulting external resource
+
+Script:
+
 ```js
+// lists the global.expressions() saved against the dataset
 global.list = function(){
 return array(
 {"global":".list()","summary":"Lists all global.expressions()"},
@@ -224,5 +243,3 @@ return array(
 );
 };
 ```
-* What it does: Lists all these expressions (listFull includes descriptions)
-* When use it: Wanting to use one of these expressions without consulting external resource
