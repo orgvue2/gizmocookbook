@@ -1,17 +1,19 @@
-# Custom dimensions/ Custom filters
+## Custom dimensions
+#### What are custom dimensions?
+A custom calculated dimension is a property created by the user that only exists within the filter and pagination controls.
+The user can write a list of criteria to define which nodes are placed into which value bins.
 
-## What are custom dimensions?
-A custom calculated dimension is a property created by the user that only exists within the **filter** and **pagination** controls. The user can write a list of criteria to define which nodes are placed into which value bins.
+Unlike most filters, the same node can exist in multiple bins.
+This allows the rules to be complex, and makes custom dimensions a perfect tool for supporting org charts.
 
-Unlike most filters, the same node can exist in multiple bins. This allows the rules to be complex, and makes custom dimensions a perfect tool for supporting org charts.
+The criteria can be defined, for example, to create an org chart for every manager in the business containing their line manager (‘parent’) and two levels below them.
+This allows for automation of common org charting requirements and greatly decreases time and effort required to produce them.
 
-The criteria can be defined, for example, to create an org chart for every manager in the business containing their line manager (‘parent’) and two levels below them. This allows for automation of common org charting requirements and greatly decreases time and effort required to produce them.
-
-## How do you create custom dimensions?
+#### How do you create custom dimensions?
 A custom dimension is defined via a Gizmo script (containing OrgVue expressions).
 When evaluated, these scripts generate the custom dimension.
 
-#### Custom dimension scripts are diverse, but all have a common structure:
+Custom dimension scripts are diverse, but all have a common structure:
 ```js
 /** {"name":"Org Chart Dimension"} */
 api.register({
@@ -24,6 +26,7 @@ api.register({
    }
 });
 ```
+#### Breaking this script into bitesize chunks
 To break this down, the first line Defines the name of the Script for reference:
 ```js
 /** {"name":"Org Chart Dimension"} */
@@ -35,7 +38,7 @@ api.register({
    type: "dimension",
 ```
 
-You then specify the name that will appear in the filter control :
+You then specify the name that will appear in the filter control and property lists:
 
 ```js
 name: "Org",
@@ -51,15 +54,18 @@ return event.nodes
 From here, we can define what the custom dimension will actually do. In this case:
 
 ```js
-event.nodes // getting all the nodes
-.filter(n=>n.isleaf==false) // filtering out the leaves, ie keep managers only
-.map(n=>({name: n._label, entries: n.ad(-1,2)})) // and including parent and 2 levels down
+event.nodes
+// getting all the nodes
+	.filter(n=>n.isleaf==false)
+// filtering out the leaves, ie keep managers only
+	.map(n=>({name: n._label, entries: n.ad(-1,2)}))
+// and including parent and 2 levels down
 ```
 
 #### How to add multiple bins to the custom filter
-You can extend a custom dimension to contain multiple bins. To do this, you will add lists of name:entries pairs in { }.
+You can extend a custom dimension to contain multiple bins. To do this, you will add lists of name:entries pairs in {}.
 
-Here is an example:
+ Here is an example:
 
  ```js
  /** {"name":"Report Filters"} */
@@ -89,9 +95,9 @@ NB. Make sure to match up all your brackets
 * Use curly braces `{}` for each filter category
 * Use square braces `[]` for enclosing the return statement
 
-## Examples of custom dimension scripts
+### Examples of custom dimension scripts
 
-### Active positions based on month
+#### Active positions based on month:
 ```js
 /** {"name":"Active Positions"} */
 api.register({
@@ -117,7 +123,7 @@ api.register({
 });
 ```
 
-### Check the quality of your hierarchy
+#### Check the quality of your hierarchy
 ```js
 /** {"name":"Hierarchy Validator"} */
 
@@ -166,11 +172,12 @@ global.classifyNode = function(nd){
 
 
 ```
-### Split a CSV list into its component parts
+#### Split a CSV list into its component parts
 ```js
 /** {"name":"CSV Contains Filter"} */
 
 api.register({
+
 	type: "dimension",
 	name: "CSV Contains",
 	start: function(event) {
