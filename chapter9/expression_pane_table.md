@@ -5,7 +5,7 @@ Expression pane tables are a new and growing feature of OrgVue. Recently the Org
 ```js
 nodes().stats('total_cost').transpose
 ```
-Currently we have developed around a dozen of these ‘array/table expressions’.
+Currently we have developed around a dozen of these ‘array/ table expressions’.
 
 #### Why use expression pane tables?
 
@@ -41,7 +41,7 @@ global.changeCount = function(actionType){
 view.changeset()._action.filter(c=>c==actionType).count;};
 ```
 
-This has 2 main consequences
+This has 2 main consequences:
 * Expression pane tables can be generated simply by typing the global expression name: global.changes()
 * Expressions can be stored in useful ways.
 
@@ -52,9 +52,9 @@ There are 2 types of expression pane tables: Static & Dynamic.
 
 [table]
 
-### Example expression tables
+#### Example expression tables
 
-#### Find non-generated properties
+##### Find non-generated properties
 * Name: global.properties()
 * What it does: Lists all the non-generated properties in the dataset
 * When use it: a) Quick review of a dataset's properties without having to scroll through the properties pane/filter control/sidebar
@@ -72,7 +72,7 @@ Note: "Can be modified to:
 - add .sort('name',’asc') to sort alphabetically"
 
 
-#### View the node changes since last save
+##### View the node changes since last save
 * Name: `global.changes()`
 * What it does: Lists the changes made since last save (Throws an error if no changes have been made).
 * When use it: Making multiple changes to a dataset without needing a refresh (unlike filter control).
@@ -100,7 +100,7 @@ array(
 };
 ```
 
-#### Summarise RAG status in an objectives dataset
+##### Summarise RAG status in an objectives dataset
 * Name: `global.rag()`
 * What it does: Shows RAG status statistics (if applicable) - filter-dependent. (Throws an error if the dataset does not contain a property called ‘current_rag’).
 * When use it: Quick numerical summary of RAG status without recalculating/having to leave worksheet
@@ -127,11 +127,11 @@ return {
 };
 ```
 
-#### Summarise data quality
+##### Summarise data quality
 
 * Name: `global.dataQuality()`
 * What it does: Overviews completeness and quality of the data (Completeness score to be defined)
-Shows mostly the same metrics as the Data Types and Patterns dashboard but in an Excel-friendly format.
+Shows mostly the same metrics as the Data Types and Patterns dashboard but in an Excel-friendly format
 * When use it: Review changes to data quality whilst in worksheet
 Output numerical summary of dataset quality into Excel
 
@@ -155,7 +155,7 @@ array(
 };
 ```
 
-#### See high-level dataset meta-data
+##### See high-level dataset meta-data
 
 * Name: `global.dataSummary()`
 * What it does: Lists number of nodes and properties (per type)
@@ -190,7 +190,7 @@ array(
 };
 ```
 
-#### View variance of specified property
+##### View variance of specified property
 
 * Name: `global.mathMoments(nodes().<propertyInQuestion>)`
 * What it does: Shows the mathematical moments of defined property (statistics of Variance)
@@ -222,7 +222,7 @@ array(
 };
 ```
 
-#### Remember what global expressions there are
+##### Remember what global expressions there are
 
 * Name: `global.list()` || `global.listFull()`
 * What it does: Lists all these expressions (listFull includes descriptions)
