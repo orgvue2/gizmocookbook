@@ -42,4 +42,5 @@
    * [Gizmo idioms](chapter9/gizmo_idioms.md)
    * Lookup and Links
 * [Lookup](lookupandlinks.md)
+   * Lookup
 
