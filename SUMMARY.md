@@ -40,4 +40,5 @@
    * [Custom dimensions](chapter9/custom_dimension.md)
    * [Expression Pane Tables](chapter9/expression_pane_table.md)
    * [Gizmo idioms](chapter9/gizmo_idioms.md)
+   * Lookup and Links
 
