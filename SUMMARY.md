@@ -41,7 +41,7 @@
    * [Expression Pane Tables](chapter9/expression_pane_table.md)
    * [Gizmo idioms](chapter9/gizmo_idioms.md)
    * Lookup and Links
-* [Lookup](lookupandlinks.md)
+* [Lookup and Links](lookupandlinks.md)
    * [Lookup](lookup.md)
    * [Links](links.md)
 
