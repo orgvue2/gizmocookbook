@@ -27,6 +27,9 @@
    * [Calculating an end date](chapter4/add.md)
 * [Conditional logic](chapter5/README.md)
    * [If statement](chapter5/if.md)
+* [Lookup and Links](lookupandlinks.md)
+   * [Lookup](lookup.md)
+   * [Links](links.md)
 * [Filter](chapter6/README.md)
 * [Lamda expression](chapter7/README.md)
 * [Optimisation tips](chapter8/README.md)
@@ -39,7 +42,4 @@
    * [Custom dimensions](chapter9/custom_dimension.md)
    * [Expression Pane Tables](chapter9/expression_pane_table.md)
    * [Gizmo idioms](chapter9/gizmo_idioms.md)
-* [Lookup and Links](lookupandlinks.md)
-   * [Lookup](lookup.md)
-   * [Links](links.md)
 
