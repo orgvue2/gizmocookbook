@@ -38,7 +38,7 @@
    * [Configure expressions so they re-calculate only as needed](chapter09/tip3.md)
    * [Use settemporary()](chapter09/tip4.md)
    * [Keep the tenant tidy](chapter09/tip5.md)
-       * [Gizmo for consultants](chapter10/readme.md)
+* [Gizmo for consultants](chapter10/readme.md)
    * [Custom dimensions](chapter10/custom_dimension.md)
    * [Expression Pane Tables](chapter10/expression_pane_table.md)
    * [Gizmo idioms](chapter10/gizmo_idioms.md)
