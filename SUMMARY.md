@@ -30,7 +30,7 @@
 * [Filter](chapter06/README.md)
 * [Lamda expression](chapter07/README.md)
 * [Lookups and Links](chapter08/readme.md)
-   * [Lookups](chapter08/lookup.md)
+   * [Lookups](chapter08/lookups.md)
    * [Links](chapter08/links.md)
 * [Optimisation tips](chapter09/README.md)
    * [Write expressions in the property value box](chapter09/tip1.md)
