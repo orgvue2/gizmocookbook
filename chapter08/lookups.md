@@ -1,4 +1,4 @@
-# Lookup
+# Lookups
 `lookup` allows you to keep one or more main datasets updated with a reference set of data. This can be useful where the reference set of data needs to be updated periodically, and the change needs to be dialled through the entire population of one or more main datasets. 
 The power of Lookups in OrgVue is that it allows you to normalise multiple datasets with consistent numerical values or text – or even standard images (icons, flags…) or even colours (by gender, department, etc.).
 
