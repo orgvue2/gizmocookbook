@@ -27,7 +27,7 @@ where the 'salary' property represents total payroll cost.
 
 ### Discussion
 `node.links.to` lists all nodes linked to the selected node.
-Further you will be able to access the specific property in the linked dataset. `node.links.to.salary` should list all 'salary' values of the nodes linked to the selected node.
+Further you will be able to access the specific property in the linked dataset. `node.links.to.salary` lists all 'salary' values of the nodes linked to the selected node.
 To calculate the activity cost, you need to calculate '% time spend x payroll cost' for each linked node, then sum them up. 
 
 **Node:** Be aware of the format of the link values, for example, When the values are provided in intergers, use: `node.links.math("(value/100)*to.salary").sum`.
