@@ -10,7 +10,7 @@ node.start_date.add(number of days)
 ```
 
 ### Discussion
-`node.start_date.add (100)` adds 100 days to start date.
+`node.start_date.add(100)` adds 100 days to start date.
 
 `node.start_date.addDays(100)` adds 100 days to start date.
 
