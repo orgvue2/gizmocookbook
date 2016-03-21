@@ -7,7 +7,9 @@ You want calculate total FTEs involved in each activity when the People and the 
 
 ### Solution
 In the Process dataset use the expression:
-```node.links.value.sum```
+```javascript
+node.links.value.sum
+```
 
 ### Discussion
 `node.links.value` lists all link values to the selected node. To calculate FTEs correctly using links, understand the format of % time spend - in percentage (0.2) or integers (20). When the values are provided in intergers, The 'total FTEs' need to be divided by 100: `node.links.value.sum/100`.
@@ -18,7 +20,10 @@ You want to calculate cost of each activity when the People and the Processes da
 
 ### Solution
 In the Process dataset use the expression:
-`node.links.math("value*to.salary").sum` where the 'salary' property represents total payroll cost.
+```javascript
+node.links.math("value*to.salary").sum
+``` 
+where the 'salary' property represents total payroll cost.
 
 ### Discussion
 `node.links.to` lists all nodes linked to the selected node.
@@ -33,5 +38,7 @@ You want to find the average salary of all people linked to an activity.
 
 ### Solution
 In the Process dataset use the expression:
-`node.links.to.currentbonus.avg`
+```javascript
+node.links.to.currentbonus.avg
+```
 
