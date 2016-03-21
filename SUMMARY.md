@@ -29,7 +29,7 @@
    * [If statement](chapter05/if.md)
 * [Filter](chapter06/README.md)
 * [Lamda expression](chapter07/README.md)
-* [Lookup and Links](chapter08/readme.md)
+* [Lookups and Links](chapter08/readme.md)
    * [Lookup](chapter08/lookup.md)
    * [Links](chapter08/links.md)
 * [Optimisation tips](chapter09/README.md)
