@@ -16,6 +16,6 @@ node.rollUp("sum","currentsalary")
 `node.rollUp("sum","currentsalary")` sums up all current salaries for nodes in the hierarchy up to and including the selected node.
 ‘sum’ can be replaced with ‘avg’, ‘cnt’, ‘max’, ‘min’ to perform other operations depending on the situation.
 
-`node.d.currentsalary.sum` technically does the same operation. But it’s highly inefficient as it will evaluate every node – not recommended. This will make the Dataset run slowly.
+`node.d(0).currentsalary.sum` technically does the same operation. But it’s highly inefficient as it will evaluate every node – not recommended. This will make the Dataset run slowly.
 
 ** Note: ** If you have any filters applied, this expression will perform calculations on the filtered subset of your data. If you want to do roll-up calculations on unfiltered data, use `allrollUp()` in the expression, instead of `rollUp()` e.g.  ```node.allrollUp("sum", "currentsalary")```. 
