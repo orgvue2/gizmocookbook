@@ -45,7 +45,7 @@
    * [Gizmo idioms](chapter10/gizmo_idioms.md)
 * [Exercises](exercises/readme.md)
    * [Exercise Sets](exercises/set1.md)
-   * [Exercise Set 2](exercises/set2.md)
+   * [Answer Keys](exercises/set2.md)
    * [Exercise Set 3](exercises/set3.md)
    * [Exercise Set 4](exercises/set4.md)
    * [Exercise Set 5](exercises/set5.md)
