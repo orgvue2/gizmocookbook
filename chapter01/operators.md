@@ -46,8 +46,12 @@
 
 #### Search operators
 Used in Search Panel, see Basic OrgVue Training for more details
+
 **:** (value within a specific property)
+
 **..** (range)
+
 **AND** (and)
+
 **OR** (or)
 
