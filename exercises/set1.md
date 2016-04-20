@@ -22,13 +22,28 @@
 
 5. What expression would you use to calculate the total days of absence for a team
 
----
-### Exercise Set 1 - Answer keys
-1. 41 years old. `node.c.age.min`
-2. 27.5%. 
-`node.math("(currentbonus/totalannualcompensation)*100")`
-3. 5.7%. `nodes().bonuspercent.avg`
-4. 140K. `node.d(2,2).totalannualcompensation.avg`
-5. 214 days. `node.rollUp('absencedays','sum')`
+
+## Exercise Set 3
+1. What expression would you use to display full name and role title joined by ‘-’ (dash), e.g. Reece Harris - CEO
+
+2. Create a new property which holds the first 3 characters of Department only
+
+3. Create 2 properties First name and Last name from Full name in the 1505 dataset
 
 
+## Exercise Set 4
+1. Find out the difference between 9th August 2012 and 2nd October 2015 in days, weeks, month and years
+
+2. How many weeks from today to the next financial year (e.g. 1st  April 2016) start?
+
+3. Is the CEO older or younger than the average age of the company as a whole?
+
+
+## Exericse Set 5
+1. Tag employees who have a Bradford Index > 100 as “Risk”; otherwise “No Risk”
+
+
+2. Tag employees as “Middle Management” if they are depth 3 and have direct reports (otherwise tag employees as “Other”)
+
+
+3. Tag employees as “High” (>£150k), “Medium” (£50k to £150k) or “Low” (<£50k)
