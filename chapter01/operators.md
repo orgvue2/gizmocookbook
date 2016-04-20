@@ -42,7 +42,7 @@
 **condition ? true : false** (If “condition” then “true” else “false”)
 
 #### Ramda syntax
-**=>** (defines  lambda expression; see [Lamda Expression chapter](chapter07/README.md) for more details)
+**=>** (defines  lambda expression; see [Lamda Expression chapter](https://orgvue.gitbooks.io/gizmocookbook/content/chapter07/index.html) for more details)
 
 #### Search operators
 Used in Search Panel, see Basic OrgVue Training for more details
