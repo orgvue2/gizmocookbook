@@ -2,6 +2,7 @@
 
 * [Preface](README.md)
    * Exercises
+   * Exercises
 * [Introduction to Gizmo Expressions](chapter01/readme.md)
    * [Introduction](chapter01/introduction.md)
    * [Expression Panel](chapter01/expressionpanel.md)
