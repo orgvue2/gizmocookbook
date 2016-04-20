@@ -44,9 +44,9 @@
    * [Expression Pane Tables](chapter10/expression_pane_table.md)
    * [Gizmo idioms](chapter10/gizmo_idioms.md)
 * [Exercises](exercises/set1.md)
-   * Set1
-   * Set2
-   * Set3
-   * Set4
-   * Set5
+   * [Exercise Set 1](exercises/set1.md)
+   * [Exercise Set 2](exercises/set2.md)
+   * [Exercise Set 3](exercises/set3.md)
+   * [Set 4](exercises/set4.md)
+   * [Set 5](exercises/set5.md)
 
