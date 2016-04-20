@@ -12,7 +12,7 @@
 * [Numbers](chapter02/readme.md)
    * [Formatting numbers](chapter02/format.md)
    * [Arithmetic calculation](chapter02/math.md)
-   * [Mathematical operations](chapter02/math.md/Mathematical operations)
+   * [Mathematical operations](chapter02/math.md)
    * [Aggregating numbers](chapter02/aggregators.md)
    * [Roll up calculation](chapter02/rollup.md)
    * [Viewing stats](chapter02/stats.md)
