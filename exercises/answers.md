@@ -1,16 +1,15 @@
 ## Answer keys
 
 ## Exercise Set 1
-1. 41 years old. `node.c.age.min`
+1. `node.c.age.min`
 
-2. 27.5%. 
-`node.math("(currentbonus/totalannualcompensation)*100")`
+2. `node.math("(currentbonus/totalannualcompensation)*100")`
 
-3. 5.7%. `nodes().bonuspercent.avg`
+3. `nodes().bonuspercent.avg`
 
-4. 140K. `node.d(2,2).totalannualcompensation.avg`
+4. `node.d(2,2).totalannualcompensation.avg`
  
-5. 214 days. `node.rollUp('absencedays','sum')`
+5. `node.rollUp('absencedays','sum')`
 
 ## Exercise Set 2
 1. `nodes().age.avg` 
