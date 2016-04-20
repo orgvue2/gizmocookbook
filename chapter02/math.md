@@ -8,7 +8,7 @@ Math.function(argument)
 ### Examples
 `Math.round(x)` Rounds x to the nearest integer.
 
-`Math.round(x*100)/100 Rounds` x to the different decimal places.
+`Math.round(x*100)/100` Rounds x to the different decimal places.
 
 `Math.sqrt(x)` Returns the square root of x.
 
