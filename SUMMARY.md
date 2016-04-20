@@ -45,4 +45,5 @@
    * [Gizmo idioms](chapter10/gizmo_idioms.md)
 * [Exercises](exercises/set1.md)
    * Set1
+   * Set2
 
