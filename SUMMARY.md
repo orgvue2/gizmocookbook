@@ -46,4 +46,5 @@
 * [Exercises](exercises/set1.md)
    * Set1
    * Set2
+   * Set3
 
