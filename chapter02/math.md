@@ -1,11 +1,10 @@
 ## Mathematical operations: Math.()
 
-There are a range of `Math.()` functions for performing more complex mathematical expressions. The Math.() functions all take a similar form and all require arguments in ().
+There are a range of `Math.()`functions for performing more complex mathematical expressions. The Math.() functions all take a similar form and all require arguments in ().
 
 ```js
 Math.function(argument)
 ```
-
 ### Examples
 `Math.round(x)` Rounds x to the nearest integer.
 
