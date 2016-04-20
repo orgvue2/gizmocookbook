@@ -43,7 +43,7 @@
    * [Custom dimensions](chapter10/custom_dimension.md)
    * [Expression Pane Tables](chapter10/expression_pane_table.md)
    * [Gizmo idioms](chapter10/gizmo_idioms.md)
-* [Exercises](exercises/set1.md)
+* [Exercises](exercises/readme.md)
    * [Exercise Set 1](exercises/set1.md)
    * [Exercise Set 2](exercises/set2.md)
    * [Exercise Set 3](exercises/set3.md)
