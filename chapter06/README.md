@@ -5,7 +5,7 @@ If you want to filter the nodes according to some condition or a specific proper
 ```javascript
 nodes().filter(n=>n[condition])
 ```
-`n=>n` called a ‘lamda expression’ – *see '[Lamda expression](../chapter7/index.html)'*.
+`n=>n` called a ‘lamda expression’ – *see '[Lamda expression](https://orgvue.gitbooks.io/gizmocookbook/content/chapter07/index.html)'*.
 
 ### Examples
 1. List all the women in the organisation
