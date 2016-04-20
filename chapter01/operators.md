@@ -11,24 +11,20 @@
 
 **%** (modulus)
 
-#### Bitwise operators
-**&** (and)
-
-**|** (or)
-
-**^** (xor)
 
 #### Logical operators
-**AND** or **&&**
+**&&** (and)
 
-**OR** or **||**
+**||** (or)
 
-**NOT** or **!**
+**!** (not)
 
 #### Comparison operators
-**==** (equal)
+**=** (assign; used for declaring a variable, e.g. let a = 5)
 
-**===** (identical)
+**==** (equal; used for testing whether two things have the same value, e.g. node.region == "South")
+
+**===** (identical; used for testing whether two entities are exactly the same. If a = 5 and b = 5, then a == b but a !=== b because they’re two different variables. Rarely used in Gizmo except for === 0 and ===true|false)
 
 **!=** (not equal)
 
@@ -42,10 +38,16 @@
 
 **>=** (greater than or equal to)
 
-#### Numeric operators
+#### Conditional operators (ternary)
+**condition ? true : false** (If “condition” then “true” else “false”)
+
+#### Ramda syntax
+**=>** (defines  lambda expression; see Lamda Expression chapter for more details)
+
+#### Search operators
+Used in Search Panel, see Basic OrgVue Training for more details
+**:** (value within a specific property)
 **..** (range)
-
-#### Conditional ternary operators
-**foo ? 'yes' : 'no'** (If “foo” then “yes” else “no”)
-
+**AND** (and)
+**OR** (or)
 
