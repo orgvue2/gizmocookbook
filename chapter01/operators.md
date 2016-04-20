@@ -45,7 +45,7 @@
 **=>** (defines  lambda expression; see [Lamda Expression chapter](https://orgvue.gitbooks.io/gizmocookbook/content/chapter07/index.html) for more details)
 
 #### Search operators
-Used in Search Panel, see Basic OrgVue Training for more details
+Used in Search Panel, see Basic OrgVue Training for more details.
 
 **:** (value within a specific property)
 
