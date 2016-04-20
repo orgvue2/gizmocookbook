@@ -1,7 +1,6 @@
 # Summary
 
 * [Preface](README.md)
-   * [Exercises](exercises/set1.md)
 * [Introduction to Gizmo Expressions](chapter01/readme.md)
    * [Introduction](chapter01/introduction.md)
    * [Expression Panel](chapter01/expressionpanel.md)
@@ -10,6 +9,7 @@
    * [Accessing Properties](chapter01/accessingproperties.md)
    * [Calling methods](chapter01/callingmethods.md)
    * [Supported operators](chapter01/operators.md)
+* [Exercises](exercises/set1.md)
 * [Numbers](chapter02/readme.md)
    * [Formatting numbers](chapter02/format.md)
    * [Arithmetic calculation](chapter02/calc.md)
