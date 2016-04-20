@@ -42,8 +42,6 @@
 ## Exericse Set 5
 1. Tag employees who have a Bradford Index > 100 as “Risk”; otherwise “No Risk”
 
-
 2. Tag employees as “Middle Management” if they are depth 3 and have direct reports (otherwise tag employees as “Other”)
-
 
 3. Tag employees as “High” (>£150k), “Medium” (£50k to £150k) or “Low” (<£50k)
