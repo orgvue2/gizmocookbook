@@ -44,4 +44,5 @@
    * [Expression Pane Tables](chapter10/expression_pane_table.md)
    * [Gizmo idioms](chapter10/gizmo_idioms.md)
 * [Exercises](exercises/set1.md)
+   * Set1
 
